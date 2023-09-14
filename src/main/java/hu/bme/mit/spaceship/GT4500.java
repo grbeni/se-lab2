@@ -93,7 +93,7 @@ public class GT4500 implements SpaceShip {
           }
 		}
         else {
-			// Branch A
+			// Branch merge A-B
 			if (! primaryTorpedoStore.isEmpty()) {
 			  primaryFiringSuccess = primaryTorpedoStore.fire(1);
 			  wasPrimaryFiredLast = true;
